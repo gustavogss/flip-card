@@ -1,4 +1,4 @@
-# Projeto FLIP CARD :card: 
+# Projeto FLIP CARD :credit_card: 
 Formulário de pagamento para cartão 
 
 ## Tecnologias e ferramentas utilizadas :robot:
@@ -6,4 +6,5 @@ Formulário de pagamento para cartão
 [CSS]()
 [JS]()
 
-## Aplicação funcionando :computer:
+## Aplicação funcionando :computer: :iphone:
+
