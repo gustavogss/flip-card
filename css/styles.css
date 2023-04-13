@@ -12,4 +12,39 @@
 
 body {
     font-size: 1.6rem;
+    background: #1F2937;
+}
+
+form {
+    border: 1px solid #414141;
+    padding: 2.4rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+#card {
+    width: 32.8rem;
+    height: 21.2rem;
+    perspective: 60rem;
+}
+
+#card > div{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+#card .front{
+ background: url(../images/front-card.png) no-repeat;
+ transform: rotateY(0);
+}
+
+#card .back{
+ background: url(../images/back-card.png) no-repeat;
+ transform: rotateY(-180deg);
 }
